@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A7D2BBE3-322C-4198-886A-C0F107BD551A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Gifter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4072EDCF3A0EBFBC5EB3732FFC8EC1C9B634F0B9</key>
+		<string>https://bitbucket.org/muzammil_triffort/gifter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Gifter/Gifter.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4072EDCF3A0EBFBC5EB3732FFC8EC1C9B634F0B9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/muzammil_triffort/gifter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4072EDCF3A0EBFBC5EB3732FFC8EC1C9B634F0B9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4072EDCF3A0EBFBC5EB3732FFC8EC1C9B634F0B9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>git</string>
+		</dict>
+	</array>
+</dict>
+</plist>

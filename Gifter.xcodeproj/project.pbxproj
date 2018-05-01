@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027A5BF91B94A1BF00ABB884 /* img@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 027A5BF71B94A1BF00ABB884 /* img@2x.jpg */; };
+		027A5BFA1B94A1BF00ABB884 /* img@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 027A5BF81B94A1BF00ABB884 /* img@3x.jpg */; };
+		02D697CA1BB9702900DA4EE8 /* PrivacyPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D697C91BB9702900DA4EE8 /* PrivacyPolicyViewController.m */; };
+		02D697CC1BB978E400DA4EE8 /* privacy_policy.html in Resources */ = {isa = PBXBuildFile; fileRef = 02D697CB1BB978E400DA4EE8 /* privacy_policy.html */; };
+		02D697CE1BB99D9100DA4EE8 /* terms.html in Resources */ = {isa = PBXBuildFile; fileRef = 02D697CD1BB99D9000DA4EE8 /* terms.html */; };
+		4CC0C21E0DCC5B299014B90F /* libPods-Gifter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E382300B0994B4D8658F750 /* libPods-Gifter.a */; };
+		680509BC1B25D0FD00240D39 /* GTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680509BB1B25D0FD00240D39 /* GTWebViewController.m */; };
+		6872F64B1B20754E004E663F /* GTRecommendedGiftVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6872F64A1B20754E004E663F /* GTRecommendedGiftVC.m */; };
+		6872F64E1B208316004E663F /* NSString+StringSizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 6872F64D1B208316004E663F /* NSString+StringSizeWithFont.m */; };
+		689296CA1BE215F6002B21D8 /* FBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689296C91BE215F6002B21D8 /* FBLoginController.m */; };
+		930485A71AC0C40500D9D136 /* ATLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 930485A61AC0C40500D9D136 /* ATLabel.m */; };
+		9309FAB31ABEE3C700EDB5A5 /* SnappyServiceNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9309FAB21ABEE3C700EDB5A5 /* SnappyServiceNF.otf */; };
+		9309FAB61ABEF33900EDB5A5 /* Skia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9309FAB51ABEF33900EDB5A5 /* Skia.ttf */; };
+		9309FAB91ABEF3B000EDB5A5 /* SmartFrocksNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9309FAB81ABEF3B000EDB5A5 /* SmartFrocksNF.otf */; };
+		9309FABD1ABF0AB800EDB5A5 /* KTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FABC1ABF0AB800EDB5A5 /* KTUtility.m */; };
+		9309FAC11ABF103700EDB5A5 /* GTBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FAC01ABF103700EDB5A5 /* GTBaseTabBarViewController.m */; };
+		9309FAC61ABF356100EDB5A5 /* PeopleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FAC51ABF356100EDB5A5 /* PeopleCell.m */; };
+		9309FACA1ABF41C000EDB5A5 /* ProfileEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FAC91ABF41C000EDB5A5 /* ProfileEditCell.m */; };
+		9309FACE1ABF421600EDB5A5 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FACD1ABF421600EDB5A5 /* AddPersonViewController.m */; };
+		9309FAD21ABF4EB100EDB5A5 /* GTCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FAD11ABF4EB100EDB5A5 /* GTCartViewController.m */; };
+		9309FAD61ABF4EC800EDB5A5 /* CartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FAD51ABF4EC800EDB5A5 /* CartCell.m */; };
+		9309FADA1ABF53CF00EDB5A5 /* GTDeliveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FAD91ABF53CF00EDB5A5 /* GTDeliveryViewController.m */; };
+		9309FADE1ABF5C3400EDB5A5 /* GTAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FADD1ABF5C3400EDB5A5 /* GTAccountViewController.m */; };
+		9309FAE21ABF5D4D00EDB5A5 /* GTAccountHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FAE11ABF5D4D00EDB5A5 /* GTAccountHistoryViewController.m */; };
+		9309FAE81ABF89BF00EDB5A5 /* GTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9309FAE71ABF89BF00EDB5A5 /* GTBaseViewController.m */; };
+		930EFCA41AE416520092CA01 /* MDSGeocodingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930EFCA11AE416520092CA01 /* MDSGeocodingViewController.xib */; };
+		930EFCA51AE416520092CA01 /* MDSGeocodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930EFCA31AE416520092CA01 /* MDSGeocodingViewController.m */; };
+		930EFCA81AE416910092CA01 /* SM_LocationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 930EFCA71AE416910092CA01 /* SM_LocationKit.m */; };
+		930EFCAB1AE44BE40092CA01 /* GTAddressAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930EFCAA1AE44BE40092CA01 /* GTAddressAddViewController.m */; };
+		930EFCAE1AE463450092CA01 /* GTPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930EFCAD1AE463450092CA01 /* GTPaymentViewController.m */; };
+		93432A3C1AC8968D00270199 /* UIButton+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 93432A361AC8968D00270199 /* UIButton+Blocks.m */; };
+		93432A3D1AC8968D00270199 /* UIPickerView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 93432A391AC8968D00270199 /* UIPickerView+Blocks.m */; };
+		93432A3E1AC8968D00270199 /* UITableView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 93432A3B1AC8968D00270199 /* UITableView+Blocks.m */; };
+		937C496B1AE70BD300B0DAEF /* GTChildLovedOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937C496A1AE70BD300B0DAEF /* GTChildLovedOneViewController.m */; };
+		93835AD51ADC821D0088EAD7 /* GTGiftItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93835AD41ADC821D0088EAD7 /* GTGiftItemsViewController.m */; };
+		93AB446F1ADDDA5500E02679 /* GTItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AB446E1ADDDA5500E02679 /* GTItemDetailViewController.m */; };
+		93BA12601ABD968500CFD20F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA125F1ABD968500CFD20F /* main.m */; };
+		93BA12631ABD968500CFD20F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA12621ABD968500CFD20F /* AppDelegate.m */; };
+		93BA12661ABD968500CFD20F /* GTGiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA12651ABD968500CFD20F /* GTGiftViewController.m */; };
+		93BA12691ABD968500CFD20F /* GTLovedOnesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA12681ABD968500CFD20F /* GTLovedOnesViewController.m */; };
+		93BA126C1ABD968500CFD20F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BA126A1ABD968500CFD20F /* Main.storyboard */; };
+		93BA126E1ABD968500CFD20F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BA126D1ABD968500CFD20F /* Images.xcassets */; };
+		93BA12711ABD968500CFD20F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BA126F1ABD968500CFD20F /* LaunchScreen.xib */; };
+		93BA12881ABE132500CFD20F /* GTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA12871ABE132500CFD20F /* GTLoginViewController.m */; };
+		93BA128C1ABE133800CFD20F /* GTRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA128B1ABE133800CFD20F /* GTRegisterViewController.m */; };
+		93BA12901ABE136300CFD20F /* GTLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA128F1ABE136300CFD20F /* GTLandingViewController.m */; };
+		93BE2A591AED6DD9002C27CD /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BE2A581AED6DD9002C27CD /* UIAlertView+Blocks.m */; };
+		93C48CFD1AC8692B005FB825 /* GTAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C48CFC1AC8692B005FB825 /* GTAPIClient.m */; };
+		B4267E361BE392EB004D4AE7 /* Dabo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B4267E351BE392EB004D4AE7 /* Dabo.gif */; };
+		B4267E401BE39ECE004D4AE7 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = B4267E3F1BE39ECE004D4AE7 /* UIImage+animatedGIF.m */; };
+		B4267E431BE3A1DB004D4AE7 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4267E421BE3A1DB004D4AE7 /* LaunchViewController.m */; };
+		B43AFE781B973D1200C1E437 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43AFE771B973D1200C1E437 /* ChangePasswordViewController.m */; };
+		B48B9B151B7DBF2E00E158BC /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48B9B141B7DBF2E00E158BC /* PassKit.framework */; };
+		C633BCB81C201497008EA9AB /* AddMoreOccasionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C633BCB71C201497008EA9AB /* AddMoreOccasionsVC.m */; };
+		C633BCC81C20357F008EA9AB /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = C633BCBA1C20357F008EA9AB /* CREDITS */; };
+		C633BCC91C20357F008EA9AB /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C633BCBD1C20357F008EA9AB /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C633BCCA1C20357F008EA9AB /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C633BCBF1C20357F008EA9AB /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C633BCCB1C20357F008EA9AB /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C633BCC11C20357F008EA9AB /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C633BCCC1C20357F008EA9AB /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C633BCC31C20357F008EA9AB /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C633BCCD1C20357F008EA9AB /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C633BCC51C20357F008EA9AB /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C633BCCE1C20357F008EA9AB /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C633BCC71C20357F008EA9AB /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C64A79FD1C1ED246003F4003 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C64A79EE1C1ED246003F4003 /* Info.plist */; };
+		C64A79FE1C1ED246003F4003 /* STPTestAddressStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A79F01C1ED246003F4003 /* STPTestAddressStore.m */; };
+		C64A79FF1C1ED246003F4003 /* STPTestCardStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A79F21C1ED246003F4003 /* STPTestCardStore.m */; };
+		C64A7A001C1ED246003F4003 /* STPTestDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A79F51C1ED246003F4003 /* STPTestDataTableViewController.m */; };
+		C64A7A011C1ED246003F4003 /* STPTestPaymentAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A79F71C1ED246003F4003 /* STPTestPaymentAuthorizationViewController.m */; };
+		C64A7A021C1ED246003F4003 /* STPTestPaymentSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A79F91C1ED246003F4003 /* STPTestPaymentSummaryViewController.m */; };
+		C64A7A031C1ED246003F4003 /* STPTestPaymentSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C64A79FA1C1ED246003F4003 /* STPTestPaymentSummaryViewController.xib */; };
+		C64A7A041C1ED246003F4003 /* STPTestShippingMethodStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A79FC1C1ED246003F4003 /* STPTestShippingMethodStore.m */; };
+		C64A7A071C1F0C8B003F4003 /* NSDictionary+Dabo.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A7A061C1F0C8B003F4003 /* NSDictionary+Dabo.m */; };
+		D24DC5521D071D310061FCEA /* GTProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24DC5511D071D310061FCEA /* GTProfileViewController.m */; };
+		D24DC5551D073B840061FCEA /* GTActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24DC5541D073B840061FCEA /* GTActivityViewController.m */; };
+		D24DC5581D0744980061FCEA /* GTExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24DC5571D0744980061FCEA /* GTExploreViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		027A5BF71B94A1BF00ABB884 /* img@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img@2x.jpg"; sourceTree = "<group>"; };
+		027A5BF81B94A1BF00ABB884 /* img@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img@3x.jpg"; sourceTree = "<group>"; };
+		02D697C81BB9702900DA4EE8 /* PrivacyPolicyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacyPolicyViewController.h; sourceTree = "<group>"; };
+		02D697C91BB9702900DA4EE8 /* PrivacyPolicyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacyPolicyViewController.m; sourceTree = "<group>"; };
+		02D697CB1BB978E400DA4EE8 /* privacy_policy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacy_policy.html; sourceTree = "<group>"; };
+		02D697CD1BB99D9000DA4EE8 /* terms.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms.html; sourceTree = "<group>"; };
+		27B537F16423B33D104A952F /* Pods-Gifter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gifter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gifter/Pods-Gifter.release.xcconfig"; sourceTree = "<group>"; };
+		4E382300B0994B4D8658F750 /* libPods-Gifter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gifter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		680509BA1B25D0FD00240D39 /* GTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTWebViewController.h; sourceTree = "<group>"; };
+		680509BB1B25D0FD00240D39 /* GTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTWebViewController.m; sourceTree = "<group>"; };
+		6872F6491B20754E004E663F /* GTRecommendedGiftVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTRecommendedGiftVC.h; sourceTree = "<group>"; };
+		6872F64A1B20754E004E663F /* GTRecommendedGiftVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTRecommendedGiftVC.m; sourceTree = "<group>"; };
+		6872F64C1B208316004E663F /* NSString+StringSizeWithFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+StringSizeWithFont.h"; path = "Category/NSString+StringSizeWithFont.h"; sourceTree = "<group>"; };
+		6872F64D1B208316004E663F /* NSString+StringSizeWithFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+StringSizeWithFont.m"; path = "Category/NSString+StringSizeWithFont.m"; sourceTree = "<group>"; };
+		689296C81BE215F6002B21D8 /* FBLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginController.h; sourceTree = "<group>"; };
+		689296C91BE215F6002B21D8 /* FBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginController.m; sourceTree = "<group>"; };
+		930485A51AC0C40500D9D136 /* ATLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLabel.h; sourceTree = "<group>"; };
+		930485A61AC0C40500D9D136 /* ATLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLabel.m; sourceTree = "<group>"; };
+		9309FAB21ABEE3C700EDB5A5 /* SnappyServiceNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SnappyServiceNF.otf; sourceTree = "<group>"; };
+		9309FAB51ABEF33900EDB5A5 /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skia.ttf; sourceTree = "<group>"; };
+		9309FAB81ABEF3B000EDB5A5 /* SmartFrocksNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SmartFrocksNF.otf; sourceTree = "<group>"; };
+		9309FABB1ABF0AB800EDB5A5 /* KTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUtility.h; sourceTree = "<group>"; };
+		9309FABC1ABF0AB800EDB5A5 /* KTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUtility.m; sourceTree = "<group>"; };
+		9309FABF1ABF103700EDB5A5 /* GTBaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTBaseTabBarViewController.h; sourceTree = "<group>"; };
+		9309FAC01ABF103700EDB5A5 /* GTBaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTBaseTabBarViewController.m; sourceTree = "<group>"; };
+		9309FAC41ABF356100EDB5A5 /* PeopleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleCell.h; path = Cell/PeopleCell.h; sourceTree = "<group>"; };
+		9309FAC51ABF356100EDB5A5 /* PeopleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleCell.m; path = Cell/PeopleCell.m; sourceTree = "<group>"; };
+		9309FAC81ABF41C000EDB5A5 /* ProfileEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileEditCell.h; sourceTree = "<group>"; };
+		9309FAC91ABF41C000EDB5A5 /* ProfileEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileEditCell.m; sourceTree = "<group>"; };
+		9309FACC1ABF421600EDB5A5 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
+		9309FACD1ABF421600EDB5A5 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
+		9309FAD01ABF4EB100EDB5A5 /* GTCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCartViewController.h; sourceTree = "<group>"; };
+		9309FAD11ABF4EB100EDB5A5 /* GTCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCartViewController.m; sourceTree = "<group>"; };
+		9309FAD41ABF4EC800EDB5A5 /* CartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartCell.h; sourceTree = "<group>"; };
+		9309FAD51ABF4EC800EDB5A5 /* CartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartCell.m; sourceTree = "<group>"; };
+		9309FAD81ABF53CF00EDB5A5 /* GTDeliveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTDeliveryViewController.h; sourceTree = "<group>"; };
+		9309FAD91ABF53CF00EDB5A5 /* GTDeliveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTDeliveryViewController.m; sourceTree = "<group>"; };
+		9309FADC1ABF5C3400EDB5A5 /* GTAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAccountViewController.h; sourceTree = "<group>"; };
+		9309FADD1ABF5C3400EDB5A5 /* GTAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAccountViewController.m; sourceTree = "<group>"; };
+		9309FAE01ABF5D4D00EDB5A5 /* GTAccountHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAccountHistoryViewController.h; sourceTree = "<group>"; };
+		9309FAE11ABF5D4D00EDB5A5 /* GTAccountHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAccountHistoryViewController.m; sourceTree = "<group>"; };
+		9309FAE61ABF89BF00EDB5A5 /* GTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTBaseViewController.h; sourceTree = "<group>"; };
+		9309FAE71ABF89BF00EDB5A5 /* GTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTBaseViewController.m; sourceTree = "<group>"; };
+		930EFCA11AE416520092CA01 /* MDSGeocodingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSGeocodingViewController.xib; sourceTree = "<group>"; };
+		930EFCA21AE416520092CA01 /* MDSGeocodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSGeocodingViewController.h; sourceTree = "<group>"; };
+		930EFCA31AE416520092CA01 /* MDSGeocodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSGeocodingViewController.m; sourceTree = "<group>"; };
+		930EFCA61AE416910092CA01 /* SM_LocationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SM_LocationKit.h; sourceTree = "<group>"; };
+		930EFCA71AE416910092CA01 /* SM_LocationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SM_LocationKit.m; sourceTree = "<group>"; };
+		930EFCA91AE44BE40092CA01 /* GTAddressAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAddressAddViewController.h; sourceTree = "<group>"; };
+		930EFCAA1AE44BE40092CA01 /* GTAddressAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAddressAddViewController.m; sourceTree = "<group>"; };
+		930EFCAC1AE463450092CA01 /* GTPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTPaymentViewController.h; sourceTree = "<group>"; };
+		930EFCAD1AE463450092CA01 /* GTPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTPaymentViewController.m; sourceTree = "<group>"; };
+		93432A331AC87CB400270199 /* GifterPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifterPrefixHeader.pch; sourceTree = "<group>"; };
+		93432A351AC8968D00270199 /* UIButton+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Blocks.h"; sourceTree = "<group>"; };
+		93432A361AC8968D00270199 /* UIButton+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Blocks.m"; sourceTree = "<group>"; };
+		93432A371AC8968D00270199 /* UIControls+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControls+Blocks.h"; sourceTree = "<group>"; };
+		93432A381AC8968D00270199 /* UIPickerView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+Blocks.h"; sourceTree = "<group>"; };
+		93432A391AC8968D00270199 /* UIPickerView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+Blocks.m"; sourceTree = "<group>"; };
+		93432A3A1AC8968D00270199 /* UITableView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Blocks.h"; sourceTree = "<group>"; };
+		93432A3B1AC8968D00270199 /* UITableView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Blocks.m"; sourceTree = "<group>"; };
+		937C49691AE70BD300B0DAEF /* GTChildLovedOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTChildLovedOneViewController.h; sourceTree = "<group>"; };
+		937C496A1AE70BD300B0DAEF /* GTChildLovedOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTChildLovedOneViewController.m; sourceTree = "<group>"; };
+		93835AD31ADC821D0088EAD7 /* GTGiftItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTGiftItemsViewController.h; sourceTree = "<group>"; };
+		93835AD41ADC821D0088EAD7 /* GTGiftItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTGiftItemsViewController.m; sourceTree = "<group>"; };
+		93AB446D1ADDDA5500E02679 /* GTItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTItemDetailViewController.h; sourceTree = "<group>"; };
+		93AB446E1ADDDA5500E02679 /* GTItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTItemDetailViewController.m; sourceTree = "<group>"; };
+		93BA125A1ABD968500CFD20F /* Gifted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gifted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BA125E1ABD968500CFD20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93BA125F1ABD968500CFD20F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93BA12611ABD968500CFD20F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93BA12621ABD968500CFD20F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93BA12641ABD968500CFD20F /* GTGiftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTGiftViewController.h; sourceTree = "<group>"; };
+		93BA12651ABD968500CFD20F /* GTGiftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTGiftViewController.m; sourceTree = "<group>"; };
+		93BA12671ABD968500CFD20F /* GTLovedOnesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLovedOnesViewController.h; sourceTree = "<group>"; };
+		93BA12681ABD968500CFD20F /* GTLovedOnesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTLovedOnesViewController.m; sourceTree = "<group>"; };
+		93BA126B1ABD968500CFD20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93BA126D1ABD968500CFD20F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93BA12701ABD968500CFD20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		93BA127B1ABD968500CFD20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93BA127C1ABD968500CFD20F /* GifterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifterTests.m; sourceTree = "<group>"; };
+		93BA12861ABE132500CFD20F /* GTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLoginViewController.h; path = VC/GTLoginViewController.h; sourceTree = "<group>"; };
+		93BA12871ABE132500CFD20F /* GTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLoginViewController.m; path = VC/GTLoginViewController.m; sourceTree = "<group>"; };
+		93BA128A1ABE133800CFD20F /* GTRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTRegisterViewController.h; sourceTree = "<group>"; };
+		93BA128B1ABE133800CFD20F /* GTRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTRegisterViewController.m; sourceTree = "<group>"; };
+		93BA128E1ABE136300CFD20F /* GTLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLandingViewController.h; sourceTree = "<group>"; };
+		93BA128F1ABE136300CFD20F /* GTLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLandingViewController.m; sourceTree = "<group>"; };
+		93BE2A571AED6DD9002C27CD /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		93BE2A581AED6DD9002C27CD /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		93C48CFB1AC8692B005FB825 /* GTAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAPIClient.h; sourceTree = "<group>"; };
+		93C48CFC1AC8692B005FB825 /* GTAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAPIClient.m; sourceTree = "<group>"; };
+		B4267E351BE392EB004D4AE7 /* Dabo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Dabo.gif; path = background/Dabo.gif; sourceTree = SOURCE_ROOT; };
+		B4267E3E1BE39ECE004D4AE7 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		B4267E3F1BE39ECE004D4AE7 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		B4267E411BE3A1DA004D4AE7 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		B4267E421BE3A1DB004D4AE7 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		B43AFE761B973D1200C1E437 /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		B43AFE771B973D1200C1E437 /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		B48B9B141B7DBF2E00E158BC /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		B7A297FF73F473D1782C809D /* Pods-Gifter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gifter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gifter/Pods-Gifter.debug.xcconfig"; sourceTree = "<group>"; };
+		C633BCB61C201497008EA9AB /* AddMoreOccasionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMoreOccasionsVC.h; sourceTree = "<group>"; };
+		C633BCB71C201497008EA9AB /* AddMoreOccasionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMoreOccasionsVC.m; sourceTree = "<group>"; };
+		C633BCBA1C20357F008EA9AB /* CREDITS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CREDITS; sourceTree = "<group>"; };
+		C633BCBB1C20357F008EA9AB /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		C633BCBC1C20357F008EA9AB /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		C633BCBD1C20357F008EA9AB /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		C633BCBE1C20357F008EA9AB /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		C633BCBF1C20357F008EA9AB /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		C633BCC01C20357F008EA9AB /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		C633BCC11C20357F008EA9AB /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		C633BCC21C20357F008EA9AB /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		C633BCC31C20357F008EA9AB /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		C633BCC41C20357F008EA9AB /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		C633BCC51C20357F008EA9AB /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		C633BCC61C20357F008EA9AB /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		C633BCC71C20357F008EA9AB /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		C64A79ED1C1ED246003F4003 /* ApplePayStubs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePayStubs.h; sourceTree = "<group>"; };
+		C64A79EE1C1ED246003F4003 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C64A79EF1C1ED246003F4003 /* STPTestAddressStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTestAddressStore.h; sourceTree = "<group>"; };
+		C64A79F01C1ED246003F4003 /* STPTestAddressStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTestAddressStore.m; sourceTree = "<group>"; };
+		C64A79F11C1ED246003F4003 /* STPTestCardStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTestCardStore.h; sourceTree = "<group>"; };
+		C64A79F21C1ED246003F4003 /* STPTestCardStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTestCardStore.m; sourceTree = "<group>"; };
+		C64A79F31C1ED246003F4003 /* STPTestDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTestDataStore.h; sourceTree = "<group>"; };
+		C64A79F41C1ED246003F4003 /* STPTestDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTestDataTableViewController.h; sourceTree = "<group>"; };
+		C64A79F51C1ED246003F4003 /* STPTestDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTestDataTableViewController.m; sourceTree = "<group>"; };
+		C64A79F61C1ED246003F4003 /* STPTestPaymentAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTestPaymentAuthorizationViewController.h; sourceTree = "<group>"; };
+		C64A79F71C1ED246003F4003 /* STPTestPaymentAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTestPaymentAuthorizationViewController.m; sourceTree = "<group>"; };
+		C64A79F81C1ED246003F4003 /* STPTestPaymentSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTestPaymentSummaryViewController.h; sourceTree = "<group>"; };
+		C64A79F91C1ED246003F4003 /* STPTestPaymentSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTestPaymentSummaryViewController.m; sourceTree = "<group>"; };
+		C64A79FA1C1ED246003F4003 /* STPTestPaymentSummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STPTestPaymentSummaryViewController.xib; sourceTree = "<group>"; };
+		C64A79FB1C1ED246003F4003 /* STPTestShippingMethodStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTestShippingMethodStore.h; sourceTree = "<group>"; };
+		C64A79FC1C1ED246003F4003 /* STPTestShippingMethodStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTestShippingMethodStore.m; sourceTree = "<group>"; };
+		C64A7A051C1F0C8B003F4003 /* NSDictionary+Dabo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Dabo.h"; sourceTree = "<group>"; };
+		C64A7A061C1F0C8B003F4003 /* NSDictionary+Dabo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Dabo.m"; sourceTree = "<group>"; };
+		C6754F151C32667E00DC442B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D24DC5501D071D310061FCEA /* GTProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTProfileViewController.h; sourceTree = "<group>"; };
+		D24DC5511D071D310061FCEA /* GTProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTProfileViewController.m; sourceTree = "<group>"; };
+		D24DC5531D073B840061FCEA /* GTActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTActivityViewController.h; sourceTree = "<group>"; };
+		D24DC5541D073B840061FCEA /* GTActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTActivityViewController.m; sourceTree = "<group>"; };
+		D24DC5561D0744980061FCEA /* GTExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTExploreViewController.h; sourceTree = "<group>"; };
+		D24DC5571D0744980061FCEA /* GTExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTExploreViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93BA12571ABD968500CFD20F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48B9B151B7DBF2E00E158BC /* PassKit.framework in Frameworks */,
+				4CC0C21E0DCC5B299014B90F /* libPods-Gifter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027A5BF61B94A1BF00ABB884 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				027A5BF71B94A1BF00ABB884 /* img@2x.jpg */,
+				027A5BF81B94A1BF00ABB884 /* img@3x.jpg */,
+			);
+			path = background;
+			sourceTree = "<group>";
+		};
+		650B61DFE237899CA24E8AAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7A297FF73F473D1782C809D /* Pods-Gifter.debug.xcconfig */,
+				27B537F16423B33D104A952F /* Pods-Gifter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65F2C266FD45FAA628DC9026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B48B9B141B7DBF2E00E158BC /* PassKit.framework */,
+				4E382300B0994B4D8658F750 /* libPods-Gifter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		689296C71BE215F6002B21D8 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				689296C81BE215F6002B21D8 /* FBLoginController.h */,
+				689296C91BE215F6002B21D8 /* FBLoginController.m */,
+			);
+			path = AppManager;
+			sourceTree = "<group>";
+		};
+		9309FAB01ABEE02800EDB5A5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C6754F151C32667E00DC442B /* Constants.h */,
+				B4267E3E1BE39ECE004D4AE7 /* UIImage+animatedGIF.h */,
+				B4267E3F1BE39ECE004D4AE7 /* UIImage+animatedGIF.m */,
+				93BE2A571AED6DD9002C27CD /* UIAlertView+Blocks.h */,
+				93BE2A581AED6DD9002C27CD /* UIAlertView+Blocks.m */,
+				6872F64C1B208316004E663F /* NSString+StringSizeWithFont.h */,
+				6872F64D1B208316004E663F /* NSString+StringSizeWithFont.m */,
+				930485A51AC0C40500D9D136 /* ATLabel.h */,
+				930485A61AC0C40500D9D136 /* ATLabel.m */,
+				93BA12611ABD968500CFD20F /* AppDelegate.h */,
+				93BA12621ABD968500CFD20F /* AppDelegate.m */,
+				C64A7A051C1F0C8B003F4003 /* NSDictionary+Dabo.h */,
+				C64A7A061C1F0C8B003F4003 /* NSDictionary+Dabo.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		9309FAC31ABF353400EDB5A5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9309FAC41ABF356100EDB5A5 /* PeopleCell.h */,
+				9309FAC51ABF356100EDB5A5 /* PeopleCell.m */,
+				9309FAC81ABF41C000EDB5A5 /* ProfileEditCell.h */,
+				9309FAC91ABF41C000EDB5A5 /* ProfileEditCell.m */,
+				9309FAD41ABF4EC800EDB5A5 /* CartCell.h */,
+				9309FAD51ABF4EC800EDB5A5 /* CartCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		9309FAE41ABF5D8900EDB5A5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9309FAE51ABF7B2200EDB5A5 /* Landing Segment */,
+				93BA12641ABD968500CFD20F /* GTGiftViewController.h */,
+				93BA12651ABD968500CFD20F /* GTGiftViewController.m */,
+				93BA12671ABD968500CFD20F /* GTLovedOnesViewController.h */,
+				93BA12681ABD968500CFD20F /* GTLovedOnesViewController.m */,
+				9309FABF1ABF103700EDB5A5 /* GTBaseTabBarViewController.h */,
+				9309FAC01ABF103700EDB5A5 /* GTBaseTabBarViewController.m */,
+				9309FACC1ABF421600EDB5A5 /* AddPersonViewController.h */,
+				9309FACD1ABF421600EDB5A5 /* AddPersonViewController.m */,
+				C633BCB51C20147E008EA9AB /* AddMoreOccasions */,
+				9309FAD01ABF4EB100EDB5A5 /* GTCartViewController.h */,
+				9309FAD11ABF4EB100EDB5A5 /* GTCartViewController.m */,
+				9309FAD81ABF53CF00EDB5A5 /* GTDeliveryViewController.h */,
+				9309FAD91ABF53CF00EDB5A5 /* GTDeliveryViewController.m */,
+				D24DC5501D071D310061FCEA /* GTProfileViewController.h */,
+				D24DC5511D071D310061FCEA /* GTProfileViewController.m */,
+				9309FADC1ABF5C3400EDB5A5 /* GTAccountViewController.h */,
+				9309FADD1ABF5C3400EDB5A5 /* GTAccountViewController.m */,
+				9309FAE01ABF5D4D00EDB5A5 /* GTAccountHistoryViewController.h */,
+				9309FAE11ABF5D4D00EDB5A5 /* GTAccountHistoryViewController.m */,
+				D24DC5531D073B840061FCEA /* GTActivityViewController.h */,
+				D24DC5541D073B840061FCEA /* GTActivityViewController.m */,
+				D24DC5561D0744980061FCEA /* GTExploreViewController.h */,
+				D24DC5571D0744980061FCEA /* GTExploreViewController.m */,
+				9309FAE61ABF89BF00EDB5A5 /* GTBaseViewController.h */,
+				9309FAE71ABF89BF00EDB5A5 /* GTBaseViewController.m */,
+				93835AD31ADC821D0088EAD7 /* GTGiftItemsViewController.h */,
+				93835AD41ADC821D0088EAD7 /* GTGiftItemsViewController.m */,
+				93AB446D1ADDDA5500E02679 /* GTItemDetailViewController.h */,
+				93AB446E1ADDDA5500E02679 /* GTItemDetailViewController.m */,
+				6872F6491B20754E004E663F /* GTRecommendedGiftVC.h */,
+				6872F64A1B20754E004E663F /* GTRecommendedGiftVC.m */,
+				680509BA1B25D0FD00240D39 /* GTWebViewController.h */,
+				680509BB1B25D0FD00240D39 /* GTWebViewController.m */,
+				930EFCA11AE416520092CA01 /* MDSGeocodingViewController.xib */,
+				930EFCA21AE416520092CA01 /* MDSGeocodingViewController.h */,
+				930EFCA31AE416520092CA01 /* MDSGeocodingViewController.m */,
+				930EFCA61AE416910092CA01 /* SM_LocationKit.h */,
+				930EFCA71AE416910092CA01 /* SM_LocationKit.m */,
+				930EFCA91AE44BE40092CA01 /* GTAddressAddViewController.h */,
+				930EFCAA1AE44BE40092CA01 /* GTAddressAddViewController.m */,
+				930EFCAC1AE463450092CA01 /* GTPaymentViewController.h */,
+				930EFCAD1AE463450092CA01 /* GTPaymentViewController.m */,
+				937C49691AE70BD300B0DAEF /* GTChildLovedOneViewController.h */,
+				937C496A1AE70BD300B0DAEF /* GTChildLovedOneViewController.m */,
+				B43AFE761B973D1200C1E437 /* ChangePasswordViewController.h */,
+				B43AFE771B973D1200C1E437 /* ChangePasswordViewController.m */,
+				02D697C81BB9702900DA4EE8 /* PrivacyPolicyViewController.h */,
+				02D697C91BB9702900DA4EE8 /* PrivacyPolicyViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9309FAE51ABF7B2200EDB5A5 /* Landing Segment */ = {
+			isa = PBXGroup;
+			children = (
+				93BA12861ABE132500CFD20F /* GTLoginViewController.h */,
+				93BA12871ABE132500CFD20F /* GTLoginViewController.m */,
+				93BA128A1ABE133800CFD20F /* GTRegisterViewController.h */,
+				93BA128B1ABE133800CFD20F /* GTRegisterViewController.m */,
+				93BA128E1ABE136300CFD20F /* GTLandingViewController.h */,
+				93BA128F1ABE136300CFD20F /* GTLandingViewController.m */,
+				B4267E411BE3A1DA004D4AE7 /* LaunchViewController.h */,
+				B4267E421BE3A1DB004D4AE7 /* LaunchViewController.m */,
+			);
+			name = "Landing Segment";
+			sourceTree = "<group>";
+		};
+		93432A341AC8968100270199 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				93432A351AC8968D00270199 /* UIButton+Blocks.h */,
+				93432A361AC8968D00270199 /* UIButton+Blocks.m */,
+				93432A371AC8968D00270199 /* UIControls+Blocks.h */,
+				93432A381AC8968D00270199 /* UIPickerView+Blocks.h */,
+				93432A391AC8968D00270199 /* UIPickerView+Blocks.m */,
+				93432A3A1AC8968D00270199 /* UITableView+Blocks.h */,
+				93432A3B1AC8968D00270199 /* UITableView+Blocks.m */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		93BA12511ABD968500CFD20F = {
+			isa = PBXGroup;
+			children = (
+				93BA125C1ABD968500CFD20F /* Gifter */,
+				93BA12791ABD968500CFD20F /* GifterTests */,
+				93BA125B1ABD968500CFD20F /* Products */,
+				65F2C266FD45FAA628DC9026 /* Frameworks */,
+				650B61DFE237899CA24E8AAE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		93BA125B1ABD968500CFD20F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BA125A1ABD968500CFD20F /* Gifted.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93BA125C1ABD968500CFD20F /* Gifter */ = {
+			isa = PBXGroup;
+			children = (
+				689296C71BE215F6002B21D8 /* AppManager */,
+				93432A341AC8968100270199 /* Blocks */,
+				93E7D2921AC868BF009B5609 /* Network */,
+				9309FAC31ABF353400EDB5A5 /* Cell */,
+				9309FAB01ABEE02800EDB5A5 /* Application */,
+				9309FAE41ABF5D8900EDB5A5 /* View Controllers */,
+				9309FABB1ABF0AB800EDB5A5 /* KTUtility.h */,
+				9309FABC1ABF0AB800EDB5A5 /* KTUtility.m */,
+				93BA126A1ABD968500CFD20F /* Main.storyboard */,
+				93BA126D1ABD968500CFD20F /* Images.xcassets */,
+				93BA126F1ABD968500CFD20F /* LaunchScreen.xib */,
+				93BA125D1ABD968500CFD20F /* Supporting Files */,
+				93432A331AC87CB400270199 /* GifterPrefixHeader.pch */,
+			);
+			path = Gifter;
+			sourceTree = "<group>";
+		};
+		93BA125D1ABD968500CFD20F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C633BCB91C20357F008EA9AB /* JSON */,
+				C64A79EC1C1ED246003F4003 /* ApplePayStubs */,
+				B4267E351BE392EB004D4AE7 /* Dabo.gif */,
+				02D697CD1BB99D9000DA4EE8 /* terms.html */,
+				02D697CB1BB978E400DA4EE8 /* privacy_policy.html */,
+				027A5BF61B94A1BF00ABB884 /* background */,
+				9309FAB81ABEF3B000EDB5A5 /* SmartFrocksNF.otf */,
+				9309FAB51ABEF33900EDB5A5 /* Skia.ttf */,
+				9309FAB21ABEE3C700EDB5A5 /* SnappyServiceNF.otf */,
+				93BA125E1ABD968500CFD20F /* Info.plist */,
+				93BA125F1ABD968500CFD20F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93BA12791ABD968500CFD20F /* GifterTests */ = {
+			isa = PBXGroup;
+			children = (
+				93BA127C1ABD968500CFD20F /* GifterTests.m */,
+				93BA127A1ABD968500CFD20F /* Supporting Files */,
+			);
+			path = GifterTests;
+			sourceTree = "<group>";
+		};
+		93BA127A1ABD968500CFD20F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93BA127B1ABD968500CFD20F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93E7D2921AC868BF009B5609 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				93C48CFB1AC8692B005FB825 /* GTAPIClient.h */,
+				93C48CFC1AC8692B005FB825 /* GTAPIClient.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		C633BCB51C20147E008EA9AB /* AddMoreOccasions */ = {
+			isa = PBXGroup;
+			children = (
+				C633BCB61C201497008EA9AB /* AddMoreOccasionsVC.h */,
+				C633BCB71C201497008EA9AB /* AddMoreOccasionsVC.m */,
+			);
+			name = AddMoreOccasions;
+			path = VC/AddMoreOccasions;
+			sourceTree = "<group>";
+		};
+		C633BCB91C20357F008EA9AB /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C633BCBA1C20357F008EA9AB /* CREDITS */,
+				C633BCBB1C20357F008EA9AB /* JSON.h */,
+				C633BCBC1C20357F008EA9AB /* NSObject+SBJSON.h */,
+				C633BCBD1C20357F008EA9AB /* NSObject+SBJSON.m */,
+				C633BCBE1C20357F008EA9AB /* NSString+SBJSON.h */,
+				C633BCBF1C20357F008EA9AB /* NSString+SBJSON.m */,
+				C633BCC01C20357F008EA9AB /* SBJSON.h */,
+				C633BCC11C20357F008EA9AB /* SBJSON.m */,
+				C633BCC21C20357F008EA9AB /* SBJsonBase.h */,
+				C633BCC31C20357F008EA9AB /* SBJsonBase.m */,
+				C633BCC41C20357F008EA9AB /* SBJsonParser.h */,
+				C633BCC51C20357F008EA9AB /* SBJsonParser.m */,
+				C633BCC61C20357F008EA9AB /* SBJsonWriter.h */,
+				C633BCC71C20357F008EA9AB /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		C64A79EC1C1ED246003F4003 /* ApplePayStubs */ = {
+			isa = PBXGroup;
+			children = (
+				C64A79ED1C1ED246003F4003 /* ApplePayStubs.h */,
+				C64A79EE1C1ED246003F4003 /* Info.plist */,
+				C64A79EF1C1ED246003F4003 /* STPTestAddressStore.h */,
+				C64A79F01C1ED246003F4003 /* STPTestAddressStore.m */,
+				C64A79F11C1ED246003F4003 /* STPTestCardStore.h */,
+				C64A79F21C1ED246003F4003 /* STPTestCardStore.m */,
+				C64A79F31C1ED246003F4003 /* STPTestDataStore.h */,
+				C64A79F41C1ED246003F4003 /* STPTestDataTableViewController.h */,
+				C64A79F51C1ED246003F4003 /* STPTestDataTableViewController.m */,
+				C64A79F61C1ED246003F4003 /* STPTestPaymentAuthorizationViewController.h */,
+				C64A79F71C1ED246003F4003 /* STPTestPaymentAuthorizationViewController.m */,
+				C64A79F81C1ED246003F4003 /* STPTestPaymentSummaryViewController.h */,
+				C64A79F91C1ED246003F4003 /* STPTestPaymentSummaryViewController.m */,
+				C64A79FA1C1ED246003F4003 /* STPTestPaymentSummaryViewController.xib */,
+				C64A79FB1C1ED246003F4003 /* STPTestShippingMethodStore.h */,
+				C64A79FC1C1ED246003F4003 /* STPTestShippingMethodStore.m */,
+			);
+			path = ApplePayStubs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93BA12591ABD968500CFD20F /* Gifter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BA12801ABD968500CFD20F /* Build configuration list for PBXNativeTarget "Gifter" */;
+			buildPhases = (
+				AD871CAB4E6E2E75BB539C13 /* [CP] Check Pods Manifest.lock */,
+				93BA12561ABD968500CFD20F /* Sources */,
+				93BA12571ABD968500CFD20F /* Frameworks */,
+				93BA12581ABD968500CFD20F /* Resources */,
+				314AA42598131833D1EC06E3 /* [CP] Embed Pods Frameworks */,
+				144BA3CCF6186C58010242FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gifter;
+			productName = Gifter;
+			productReference = 93BA125A1ABD968500CFD20F /* Gifted.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93BA12521ABD968500CFD20F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					93BA12591ABD968500CFD20F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 93BA12551ABD968500CFD20F /* Build configuration list for PBXProject "Gifter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93BA12511ABD968500CFD20F;
+			productRefGroup = 93BA125B1ABD968500CFD20F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BA12591ABD968500CFD20F /* Gifter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93BA12581ABD968500CFD20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BA126C1ABD968500CFD20F /* Main.storyboard in Resources */,
+				02D697CC1BB978E400DA4EE8 /* privacy_policy.html in Resources */,
+				C64A7A031C1ED246003F4003 /* STPTestPaymentSummaryViewController.xib in Resources */,
+				027A5BF91B94A1BF00ABB884 /* img@2x.jpg in Resources */,
+				9309FAB91ABEF3B000EDB5A5 /* SmartFrocksNF.otf in Resources */,
+				9309FAB61ABEF33900EDB5A5 /* Skia.ttf in Resources */,
+				93BA12711ABD968500CFD20F /* LaunchScreen.xib in Resources */,
+				027A5BFA1B94A1BF00ABB884 /* img@3x.jpg in Resources */,
+				930EFCA41AE416520092CA01 /* MDSGeocodingViewController.xib in Resources */,
+				9309FAB31ABEE3C700EDB5A5 /* SnappyServiceNF.otf in Resources */,
+				93BA126E1ABD968500CFD20F /* Images.xcassets in Resources */,
+				B4267E361BE392EB004D4AE7 /* Dabo.gif in Resources */,
+				C633BCC81C20357F008EA9AB /* CREDITS in Resources */,
+				02D697CE1BB99D9100DA4EE8 /* terms.html in Resources */,
+				C64A79FD1C1ED246003F4003 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		144BA3CCF6186C58010242FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gifter/Pods-Gifter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		314AA42598131833D1EC06E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gifter/Pods-Gifter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD871CAB4E6E2E75BB539C13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BA12561ABD968500CFD20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BA128C1ABE133800CFD20F /* GTRegisterViewController.m in Sources */,
+				C633BCCC1C20357F008EA9AB /* SBJsonBase.m in Sources */,
+				9309FABD1ABF0AB800EDB5A5 /* KTUtility.m in Sources */,
+				93BE2A591AED6DD9002C27CD /* UIAlertView+Blocks.m in Sources */,
+				9309FAE81ABF89BF00EDB5A5 /* GTBaseViewController.m in Sources */,
+				930485A71AC0C40500D9D136 /* ATLabel.m in Sources */,
+				93C48CFD1AC8692B005FB825 /* GTAPIClient.m in Sources */,
+				9309FAD21ABF4EB100EDB5A5 /* GTCartViewController.m in Sources */,
+				93432A3E1AC8968D00270199 /* UITableView+Blocks.m in Sources */,
+				93BA12691ABD968500CFD20F /* GTLovedOnesViewController.m in Sources */,
+				93432A3C1AC8968D00270199 /* UIButton+Blocks.m in Sources */,
+				02D697CA1BB9702900DA4EE8 /* PrivacyPolicyViewController.m in Sources */,
+				9309FADA1ABF53CF00EDB5A5 /* GTDeliveryViewController.m in Sources */,
+				93BA12631ABD968500CFD20F /* AppDelegate.m in Sources */,
+				930EFCA81AE416910092CA01 /* SM_LocationKit.m in Sources */,
+				C64A7A021C1ED246003F4003 /* STPTestPaymentSummaryViewController.m in Sources */,
+				C633BCB81C201497008EA9AB /* AddMoreOccasionsVC.m in Sources */,
+				C633BCCD1C20357F008EA9AB /* SBJsonParser.m in Sources */,
+				930EFCAE1AE463450092CA01 /* GTPaymentViewController.m in Sources */,
+				930EFCAB1AE44BE40092CA01 /* GTAddressAddViewController.m in Sources */,
+				C64A7A001C1ED246003F4003 /* STPTestDataTableViewController.m in Sources */,
+				D24DC5581D0744980061FCEA /* GTExploreViewController.m in Sources */,
+				9309FAC61ABF356100EDB5A5 /* PeopleCell.m in Sources */,
+				93BA12901ABE136300CFD20F /* GTLandingViewController.m in Sources */,
+				6872F64B1B20754E004E663F /* GTRecommendedGiftVC.m in Sources */,
+				93835AD51ADC821D0088EAD7 /* GTGiftItemsViewController.m in Sources */,
+				C64A79FF1C1ED246003F4003 /* STPTestCardStore.m in Sources */,
+				C633BCCB1C20357F008EA9AB /* SBJSON.m in Sources */,
+				93BA12661ABD968500CFD20F /* GTGiftViewController.m in Sources */,
+				93BA12881ABE132500CFD20F /* GTLoginViewController.m in Sources */,
+				C633BCCE1C20357F008EA9AB /* SBJsonWriter.m in Sources */,
+				D24DC5551D073B840061FCEA /* GTActivityViewController.m in Sources */,
+				C633BCCA1C20357F008EA9AB /* NSString+SBJSON.m in Sources */,
+				C64A7A011C1ED246003F4003 /* STPTestPaymentAuthorizationViewController.m in Sources */,
+				9309FAD61ABF4EC800EDB5A5 /* CartCell.m in Sources */,
+				B43AFE781B973D1200C1E437 /* ChangePasswordViewController.m in Sources */,
+				9309FADE1ABF5C3400EDB5A5 /* GTAccountViewController.m in Sources */,
+				93432A3D1AC8968D00270199 /* UIPickerView+Blocks.m in Sources */,
+				930EFCA51AE416520092CA01 /* MDSGeocodingViewController.m in Sources */,
+				6872F64E1B208316004E663F /* NSString+StringSizeWithFont.m in Sources */,
+				93AB446F1ADDDA5500E02679 /* GTItemDetailViewController.m in Sources */,
+				D24DC5521D071D310061FCEA /* GTProfileViewController.m in Sources */,
+				9309FAC11ABF103700EDB5A5 /* GTBaseTabBarViewController.m in Sources */,
+				C64A7A041C1ED246003F4003 /* STPTestShippingMethodStore.m in Sources */,
+				B4267E431BE3A1DB004D4AE7 /* LaunchViewController.m in Sources */,
+				9309FACA1ABF41C000EDB5A5 /* ProfileEditCell.m in Sources */,
+				93BA12601ABD968500CFD20F /* main.m in Sources */,
+				680509BC1B25D0FD00240D39 /* GTWebViewController.m in Sources */,
+				C64A79FE1C1ED246003F4003 /* STPTestAddressStore.m in Sources */,
+				C64A7A071C1F0C8B003F4003 /* NSDictionary+Dabo.m in Sources */,
+				9309FAE21ABF5D4D00EDB5A5 /* GTAccountHistoryViewController.m in Sources */,
+				689296CA1BE215F6002B21D8 /* FBLoginController.m in Sources */,
+				B4267E401BE39ECE004D4AE7 /* UIImage+animatedGIF.m in Sources */,
+				937C496B1AE70BD300B0DAEF /* GTChildLovedOneViewController.m in Sources */,
+				C633BCC91C20357F008EA9AB /* NSObject+SBJSON.m in Sources */,
+				9309FACE1ABF421600EDB5A5 /* AddPersonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93BA126A1ABD968500CFD20F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BA126B1ABD968500CFD20F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93BA126F1ABD968500CFD20F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BA12701ABD968500CFD20F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93BA127E1ABD968500CFD20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dabo Inc. (RH3AF4474W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dabo Inc. (RH3AF4474W)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f8c0a387-abc7-418d-8914-0c19896d3a90";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93BA127F1ABD968500CFD20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dabo Inc. (RH3AF4474W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dabo Inc. (RH3AF4474W)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "f8c0a387-abc7-418d-8914-0c19896d3a90";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93BA12811ABD968500CFD20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A297FF73F473D1782C809D /* Pods-Gifter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dabo Inc. (RH3AF4474W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dabo Inc. (RH3AF4474W)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Gifter/GifterPrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworkActivityLogger\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FDTake\"",
+					"\"${PODS_ROOT}/Headers/Public/HHTabListController\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/RMDateSelectionViewController\"",
+				);
+				INFOPLIST_FILE = Gifter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dabo;
+				PRODUCT_NAME = Gifted;
+				PROVISIONING_PROFILE = "f8c0a387-abc7-418d-8914-0c19896d3a90";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		93BA12821ABD968500CFD20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27B537F16423B33D104A952F /* Pods-Gifter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dabo Inc. (RH3AF4474W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dabo Inc. (RH3AF4474W)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Gifter/GifterPrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworkActivityLogger\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FDTake\"",
+					"\"${PODS_ROOT}/Headers/Public/HHTabListController\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/RMDateSelectionViewController\"",
+				);
+				INFOPLIST_FILE = Gifter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dabo;
+				PRODUCT_NAME = Gifted;
+				PROVISIONING_PROFILE = "f8c0a387-abc7-418d-8914-0c19896d3a90";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93BA12551ABD968500CFD20F /* Build configuration list for PBXProject "Gifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BA127E1ABD968500CFD20F /* Debug */,
+				93BA127F1ABD968500CFD20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BA12801ABD968500CFD20F /* Build configuration list for PBXNativeTarget "Gifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BA12811ABD968500CFD20F /* Debug */,
+				93BA12821ABD968500CFD20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93BA12521ABD968500CFD20F /* Project object */;
+}

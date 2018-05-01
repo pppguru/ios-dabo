@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C6E887C35FD3D43C1969214FBC80010E15A4237A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4f0800fb-a0ed-4df8-927f-d2d4bdb4ee10++4792" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C6E887C35FD3D43C1969214FBC80010E15A4237A" : 0,
+    "4f0800fb-a0ed-4df8-927f-d2d4bdb4ee10++4792" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A7D2BBE3-322C-4198-886A-C0F107BD551A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C6E887C35FD3D43C1969214FBC80010E15A4237A" : "Dabo-IOS111\/",
+    "4f0800fb-a0ed-4df8-927f-d2d4bdb4ee10++4792" : "Dabo-IOS111\/Gifter\/JSON\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Gifter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Gifter.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/subversion.assembla.com\/svn\/appworksinc",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4f0800fb-a0ed-4df8-927f-d2d4bdb4ee10++4792"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Dvlp3r\/Dabo-IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C6E887C35FD3D43C1969214FBC80010E15A4237A"
+    }
+  ]
+}
